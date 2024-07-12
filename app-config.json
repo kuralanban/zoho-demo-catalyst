@@ -1,0 +1,11 @@
+{
+	"command": "node index.js",
+	"build_path": "/home/asplap3275/Workspace/raisewsp_Catalyst/appsail-nodejs",
+	"stack": "node16",
+	"env_variables": {},
+	"memory": 256,
+	"scripts": {
+		"preserve": "npm install",
+		"predeploy": "npm install"
+	}
+}

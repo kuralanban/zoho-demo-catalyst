@@ -1,0 +1,49 @@
+[debug] [2024-07-12T14:42:01.066Z] : 
+[debug] [2024-07-12T14:42:01.067Z] : ----------------------------------------------------------------------
+[debug] [2024-07-12T14:42:01.067Z] : Command:      /home/asplap3275/.nvm/versions/node/v16.14.2/bin/node /home/asplap3275/.nvm/versions/node/v16.14.2/bin/catalyst serve
+[debug] [2024-07-12T14:42:01.067Z] : CLI Version:  1.17.6
+[debug] [2024-07-12T14:42:01.068Z] : Platform:     linux
+[debug] [2024-07-12T14:42:01.068Z] : Node Version: v16.14.2
+[debug] [2024-07-12T14:42:01.068Z] : Time:         Fri Jul 12 2024 20:12:01 GMT+0530 (India Standard Time)
+[debug] [2024-07-12T14:42:01.069Z] : ----------------------------------------------------------------------
+[debug] [2024-07-12T14:42:01.069Z] : 
+[debug] [2024-07-12T14:42:01.415Z] : > authorizing via signed-in user option
+[debug] [2024-07-12T14:42:01.415Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.authentication.CREATE"]
+[debug] [2024-07-12T14:42:01.422Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23600000000008013 
+
+[debug] [2024-07-12T14:42:09.189Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 12 Jul 2024 14:42:09 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["zalb_46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=49e899f8-786b-4c8d-83b5-99b0fb65ed6a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=49e899f8-786b-4c8d-83b5-99b0fb65ed6a;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-12T14:42:09.192Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23600000000008013/environment 
+
+[debug] [2024-07-12T14:42:10.516Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 12 Jul 2024 14:42:10 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=ddcdee48-2732-49c6-8546-81dff4dd9fa9;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ddcdee48-2732-49c6-8546-81dff4dd9fa9;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-12T14:42:10.608Z] : http port : '3000' is not available. Hence port '3002' will be used instead.
+[debug] [2024-07-12T14:42:10.609Z] : http port : '4500' is not available. Hence port '4501' will be used instead.
+[debug] [2024-07-12T14:42:10.610Z] : No basic functions to add
+[info] [2024-07-12T14:42:10.611Z] : 
+[info] [2024-07-12T14:42:10.611Z] : Executing AppSail [PRESERVE] [AppSail] script in /home/asplap3275/Workspace/raisewsp_Catalyst/appsail-nodejs
+[debug] [2024-07-12T14:42:10.611Z] : Executing command > npm install
+[info] [2024-07-12T14:42:10.611Z] : > npm install
+[info] [2024-07-12T14:42:11.838Z] : 
+[info] [2024-07-12T14:42:11.839Z] :  >>>>>>>>>>>>>> AppSail <<<<<<<<<<<<<< 
+[info] [2024-07-12T14:42:11.839Z] : ℹ AppSail: http://localhost:3002
+[info] [2024-07-12T14:42:11.839Z] : 
+[info] [2024-07-12T14:46:34.616Z] : Shutting down server
+[info] [2024-07-12T14:46:34.622Z] : 
+[info] [2024-07-12T14:46:34.623Z] : ✔ Shutdown complete
+[debug] [2024-07-12T14:46:34.623Z] : NO ERRORS REGISTERED
+[debug] [2024-07-12T14:46:34.624Z] : EXEC ENDED with event: serve, message: success
+[debug] [2024-07-12T14:46:34.625Z] : TOTAL DURATION OF COMMAND EXEC : 273213
+[error] [2024-07-12T14:46:34.631Z] : uncaughtException: ENOENT: no such file or directory, open '/tmp/.catalyst/catalyst-http-log.json'
+Error: ENOENT: no such file or directory, open '/tmp/.catalyst/catalyst-http-log.json'
+[error] [2024-07-12T14:46:34.635Z] : ✖ An unexpected error has occurred.
+[debug] [2024-07-12T14:46:34.635Z] : Error Stack: CatalystError: An unexpected error has occurred.
+    at exports.default (/home/asplap3275/.nvm/versions/node/v16.14.2/lib/node_modules/zcatalyst-cli/lib/errorOut.js:19:17)
+    at process.<anonymous> (/home/asplap3275/.nvm/versions/node/v16.14.2/lib/node_modules/zcatalyst-cli/lib/bin/catalyst.js:87:28)
+    at process.emit (node:events:538:35)
+    at process._fatalException (node:internal/process/execution:167:25)
+[debug] [2024-07-12T14:46:34.635Z] : Original Error: Error: ENOENT: no such file or directory, open '/tmp/.catalyst/catalyst-http-log.json'
+[debug] [2024-07-12T14:46:34.635Z] : Error Status: 500
+[info] [2024-07-12T14:46:34.635Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
